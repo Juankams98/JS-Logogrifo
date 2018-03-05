@@ -29,7 +29,7 @@ function inicio() {
                     $("#palabras").append("<tr>" + aux + "</tr>");
                     aux = "";
                     // $("#palabras").append("<br>");
-                    $("#palabras").append("<tr> <td colspan='" + i + "'>" + palabras[j].definicion + "||" + palabras[j].palabra + "</td> </tr>");
+                    $("#palabras").append("<tr> <td colspan='" + i + "'>" + palabras[j].definicion + "</td> </tr>");
                     break;
                 }
             }
